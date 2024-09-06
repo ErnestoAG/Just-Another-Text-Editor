@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'JATE'
       }),
      
       new InjectManifest({
@@ -40,7 +40,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-            src: path.resolve('../client/src/images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96],
             destination: path.join('assets', 'icons'),
           },
